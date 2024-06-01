@@ -1,3 +1,7 @@
+@font-face {
+    font-family: asto;
+    src: url(Astonpoliz.ttf);
+}
 * {
 padding: 0;
 margin: 0;
@@ -6,7 +10,7 @@ box-sizing: border-box;
 html,body{
     width: 100%;
     /* height: fit-content; */
-    font-family: Astonpoliz;
+    font-family: asto;
     display: flex;
     justify-content: center;
     align-items: center;
