@@ -28,32 +28,32 @@ async function weatherVue(city) {
         switch (data.weather[0].main) {
             case "Clear":
                 {
-                    image.src = "./clear.png";
+                    image.src = "clear.png";
                     break;
                 }
             case "Clouds":
                 {
-                    image.src = "./clouds.png";
+                    image.src = "clouds.png";
                     break;
                 }
             case "Rain":
                 {
-                    image.src = "./rain.png";
+                    image.src = "rain.png";
                     break;
                 }
             case "Drizzle":
                 {
-                    image.src = "./drizzle.png";
+                    image.src = "drizzle.png";
                     break;
                 }
             case "Mist":
                  {
-                     image.src = "./mist.png";
+                     image.src = "mist.png";
                      break;
                  }
             case "Wind" :
                 {
-                    image.src = "./wind.png";
+                    image.src = "wind.png";
                     break;
                 }
             default :
