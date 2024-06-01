@@ -1,6 +1,7 @@
-@font-face {
-    font-family: asto;
-    src: url(Astonpoliz.ttf);
+
+@font-face{
+	font-family: 'asto';
+	src: url('Astonpoliz.ttf') format('ttf');
 }
 * {
 padding: 0;
