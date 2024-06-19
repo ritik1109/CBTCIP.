@@ -1,59 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
+
 <body>
 
     <div class="main">
-        <h1>weathervue</h1>
-        <div class="searchBox">
-            <input type="text" placeholder="Enter city">
-            <div class="btn"> <i class="ri-search-2-line"></i>
-            </div>
+        <div class="todo">
+            <h1>To-Do App</h1>
         </div>
-        <div class="error">
-            <h5>Invalid City name</h5>
+        <div class="inputBox">
+            <input type="text" placeholder="Enter task">
+            <button onclick="addTask()">add</button>
         </div>
-        <div class="weather">
-            <div class="temp">
-                <div class="img1">
-                    <img  src="clear.png" alt="">
-                </div>
-                <h1 class="temperature"> 24° c </h1>
-                <h1 class="city"> bhopal </h1>
-            </div>
-            <div class="humi-Wind">
-                <div class="humi">
-                    <div class="humi-1">
-                        <img class="image" src="humidity.png" alt="">
-                    </div>
-                    <div class="humi-2">
-                        <h1 class="humidity"> 24° c </h1>
-                        <h1 class="name"> humidity </h1>
-                    </div>
-                </div>
-                <div class="wind">
-                    <div class="wind-1">
-                        <img class="image" src="wind.png" alt="">
-                    </div>
-                    <div class="wind-2">
-                        <h1 class="windspeed"> 24° c </h1>
-                        <h1 class="name"> windspeed </h1>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <ul class="TaskContainer" >
+            <!-- <p class="checked" ></p> -->
+        </ul>
     </div>
-    
-</body>
 
+
+</body>
 <script src="script.js"></script>
+
 </html>
